@@ -1,0 +1,186 @@
+body{
+    margin: 0;
+    font-family: 'Pacifico', cursive;
+    font-size: large;
+    text-align: center;
+    background-color: #EAF6F6;
+    color: #40514E;
+}
+.header{
+    height: 120px;
+    position: relative;
+    background-color:#EAF6F6;
+    
+}
+.header-right{
+    text-decoration: none;
+    position: absolute;
+    right: 10%;
+    margin: 4% auto;
+    font-size: 30px;
+    font-family: 'Sacramento', cursive;
+    font-weight: bold;
+
+}
+.header-link{
+    text-decoration: none; 
+    padding: 13px;
+    color: #11999E;
+}
+.header-profile-image{
+    margin: 3% auto;
+    width: 6%;
+    height:75%;
+    border-radius: 50%;
+    position: absolute;
+    left: 15%;
+}
+.capG-link{
+    color: #11999E;
+}
+.top-container{
+    
+    position: relative;
+    padding-top: 20px;
+}
+
+.intro{
+    width: 50%;
+    margin: auto auto 100px auto;
+    line-height: 2;
+}
+h1{
+    color: #66BFBF;
+    
+    font-family: 'Sacramento', cursive;
+    margin: 100px auto 0 auto;
+    font-size: 4rem; /*  100%=16px=1em recommended to use rem*/
+}
+.programmer-p{
+    font-size: 2rem;
+    font-weight: normal;
+    line-height: 2;
+    
+}
+.mountain{
+    margin-top: 5%;
+    
+}
+h3{
+    color: #66BFBF;
+    font-family: 'Merriweather', serif;
+    line-height: 2;
+    
+}
+.My-Skills{
+    margin-top: 100px;
+    font-family: 'Merriweather', serif;
+}
+h2{
+    color: #66BFBF;
+    font-size: 40px;
+    font-weight: normal;
+    font-family: 'Merriweather', serif;
+    
+}
+.top-cloud{
+    width: 12%;
+    height: 12%;
+    position: absolute; 
+    right: 150px;
+    top: 100px;
+}
+.bottom-cloud{
+    width: 12%;
+    height: 12%;
+    position: absolute;
+    left: 150px;
+    
+}
+.profile-image{
+    border-radius: 50%;
+    margin-top: 100px;
+    width: 150px;
+    height: 150px;
+}
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+    
+}
+.oracle{
+    border-radius: 40%;
+    margin-top: 10px;
+    width: 25%;
+    height: 25%;
+    margin-left: 80px;
+    float: right;
+    
+
+}
+.react-native{
+    border-radius: 50%;
+    margin-top: 10px;
+    width: 25%;
+    height: 25%;
+    float: left;
+    margin-right: 80px;
+    
+}
+p{
+    line-height: 2;
+    
+}
+
+hr{
+    border-color: grey;
+    width: 5%;
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 5px;
+}
+.footer-link{
+    width: 40px;
+    height: 40px;
+    
+}
+.contact-me{
+    width: 50%;
+    margin: auto;
+    margin-top: 150px;
+    
+}
+.bottom-container{
+    margin: auto;
+    padding: 30px 0 20px;
+    background-color: #66BFBF;
+}
+.bottom-intro{
+    padding: 30px;
+}
+.myButton {
+	box-shadow: 0px 10px 14px -7px #276873;
+	background:linear-gradient(to bottom, #66bfbf 5%, #408c99 100%);
+	background-color:#66bfbf;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Merriweather', serif;
+	font-size:20px;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+    text-shadow:0px 1px 0px #3d768a;
+    margin: 50px auto;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #408c99 5%, #66bfbf 100%);
+	background-color:#408c99;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
